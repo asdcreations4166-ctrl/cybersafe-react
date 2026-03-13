@@ -45,7 +45,7 @@ function App() {
     <div className={`min-h-screen font-inter ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
       {/* Header */}
       <header className="sticky top-0 z-10 backdrop-blur-lg bg-white/80 dark:bg-gray-900/80 border-b border-gray-200/50 dark:border-gray-700/50">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <a href="#home" className="flex items-center gap-3 font-bold text-xl">
             <span className="w-10 h-10 bg-gradient-to-br from-blue-400 to-orange-400 rounded-lg flex items-center justify-center text-lg shadow-lg">⚡</span>
             <span>CyberSafe</span>
@@ -79,7 +79,7 @@ function App() {
 
       {/* Hero */}
       <section id="home" className="py-20 bg-gradient-to-br from-blue-500/20 to-orange-500/20">
-        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <h1 className="hero-title text-4xl md:text-6xl font-bold mb-4">Stay Secure. Stay Aware.</h1>
             <p className="text-lg mb-6 text-gray-600 dark:text-gray-300">
@@ -100,7 +100,7 @@ function App() {
 
       {/* Threats */}
       <section id="threats" className="py-16">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Common Threats</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">These are the most common cybersecurity issues people face every day.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -125,7 +125,7 @@ function App() {
 
       {/* Tips */}
       <section id="tips" className="py-16 bg-gray-100 dark:bg-gray-800">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Safety Tips</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">Small habits make a big difference. Try these rules to keep your digital life protected.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -146,7 +146,7 @@ function App() {
 
       {/* Password */}
       <section id="password" className="py-16">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Password Security</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">Learn best practices for creating and managing strong passwords.</p>
           <div className="grid md:grid-cols-3 gap-6">
@@ -172,7 +172,7 @@ function App() {
 
       {/* Cases */}
       <section id="cases" className="py-16 bg-gray-100 dark:bg-gray-800">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Real‑Life Cases</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">These short scenarios highlight what can happen when security is ignored.</p>
           <div className="space-y-4">
@@ -195,7 +195,7 @@ function App() {
 
       {/* Quiz */}
       <section id="quiz" className="py-16">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Quick Quiz</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">Test your cyber smarts with a short multiple-choice quiz.</p>
           <form onSubmit={(e) => { e.preventDefault(); submitQuiz(); }} className="space-y-6">
@@ -235,7 +235,7 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-gray-900/95 backdrop-blur-sm text-white py-8 border-t border-gray-800/50">
-        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8">
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-2">CyberSafe</h3>
             <p className="text-gray-400">Crafted to help everyday users build smarter, safer habits online.</p>
