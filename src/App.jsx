@@ -91,7 +91,7 @@ function App() {
             </div>
           </div>
           <div className="text-center">
-            <div className="w-64 h-80 mx-auto bg-gradient-to-br from-blue-400 to-orange-400 rounded-3xl flex items-center justify-center text-8xl animate-pulse">
+            <div className="w-48 h-60 sm:w-56 sm:h-70 md:w-64 md:h-80 mx-auto bg-gradient-to-br from-blue-400 to-orange-400 rounded-3xl flex items-center justify-center text-6xl sm:text-7xl md:text-8xl animate-pulse">
               🛡️
             </div>
           </div>
