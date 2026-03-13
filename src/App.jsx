@@ -149,7 +149,7 @@ function App() {
         <div className="max-w-screen-2xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Password Security</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">Learn best practices for creating and managing strong passwords.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-200/50 dark:border-gray-700/50">
               <h3 className="text-xl font-semibold mb-4">Strong Passwords</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
@@ -175,7 +175,7 @@ function App() {
         <div className="max-w-screen-2xl mx-auto px-4">
           <h2 className="section-title text-3xl font-bold text-center mb-4">Real‑Life Cases</h2>
           <p className="text-center mb-12 text-gray-600 dark:text-gray-300">These short scenarios highlight what can happen when security is ignored.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="space-y-4">
             {[
               { title: 'CEO Fraud: $100K Wire Transfer', desc: 'A finance team received an email appearing to be from the CEO asking for an urgent wire transfer. The email was spoofed, and the funds were moved to an attacker\'s account before the fraud was discovered.', tip: 'Always verify unusual requests via a second channel (call or in‑person) before sending money.' },
               { title: 'Password Reuse Leads to Account Takeover', desc: 'After a data breach, attackers used leaked credentials to log into the victim\'s bank account and transfer funds. The password had been reused across multiple services.', tip: 'Use a password manager and change compromised credentials immediately.' },
@@ -240,7 +240,7 @@ function App() {
             <h3 className="text-xl font-bold mb-2">CyberSafe</h3>
             <p className="text-gray-400">Crafted to help everyday users build smarter, safer habits online.</p>
           </div>
-          <nav className="grid grid-cols-2 gap-4">
+          <nav className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
             <a href="#threats" className="hover:text-blue-400 transition-colors duration-200">Threats</a>
             <a href="#tips" className="hover:text-blue-400 transition-colors duration-200">Tips</a>
             <a href="#password" className="hover:text-blue-400 transition-colors duration-200">Passwords</a>
