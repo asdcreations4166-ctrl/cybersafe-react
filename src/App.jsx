@@ -80,12 +80,12 @@ function App() {
       {/* Hero */}
       <section id="home" className="py-20 bg-gradient-to-br from-blue-500/20 to-orange-500/20">
         <div className="max-w-screen-2xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
-          <div className="text-center md:text-left">
+          <div className="text-center">
             <h1 className="hero-title text-4xl md:text-6xl font-bold mb-4">Stay Secure. Stay Aware.</h1>
             <p className="text-lg mb-6 text-gray-600 dark:text-gray-300">
               Learn how to spot online threats, protect your passwords, and make smarter decisions on the web.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#threats" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-200 shadow-lg hover:shadow-xl">Discover Threats</a>
               <a href="#tips" className="border border-gray-300 dark:border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200">Get Safety Tips</a>
             </div>
